@@ -10,7 +10,7 @@ for a in ${UBUNTU_LTS_VERSION_LIST}; do
 
      { \
      echo "[START]: Building Docker image on Ubuntu $a LTS installing gcc version $b" && \
-     docker image build --build-arg BASE_IMAGE=ubuntu:"${a}" --build-arg WANTED_GCC_VERSION="${b}" -f Dockerfile -t "alexandreelise/install-gcc:${b}-ubuntu-${a}" . && \
+     docker image build --build-arg BASE_IMAGE=ubuntu:"${a}" --build-arg WANTED_GCC_VERSION="${b}" -f Dockerfile -t "yourusername/install-gcc:${b}-ubuntu-${a}" . && \
      echo "[END]: Building Docker image on Ubuntu $a LTS installing gcc version $b" ; } &
 
   done;
