@@ -51,3 +51,7 @@ Does not work anymore with Ubuntu 12.04 LTS (image not found)
 
 ## SPECIAL THANKS:
 Special thanks to the Ubuntu community, Gcc community and Docker community.
+
+## SHARING IS CARING
+> If you find this repo useful to you consider give it a star, fork it share it with whom it might be useful too
+> https://github.com/alexandreelise/install-gcc
