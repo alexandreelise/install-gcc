@@ -12,7 +12,7 @@ The same steps should work on later versions of Ubuntu. The original gist is fro
 USAGE: ``` docker image build --build-arg BASE_IMAGE=ubuntu:14.04 --build-arg WANTED_GCC_VERSION=9 -f Dockerfile -t 'alexandreelise/install-gcc:9-ubuntu-14.04' . ```"
 
 ARG WANTED_GCC_VERSION
-ENV WANTED_GCC_VERSION=${WANTED_GCC_VERSION:-9}
+ENV WANTED_GCC_VERSION="${WANTED_GCC_VERSION:-9}"
 ENV TZ=UTC
     
 RUN apt-get update -y && \
