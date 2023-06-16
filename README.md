@@ -1,5 +1,5 @@
-# INSTALL GCC LATEST ON ANY UBUNTU LTS SINCE UBUNTU 12.04 LTS
-Optimized Dockerfile to install gcc on any Ubuntu LTS version since Ubuntu 12.04 LTS with gcc-6.1.1 to latest available on each platform at the time of writing.
+# INSTALL GCC LATEST ON ANY UBUNTU LTS SINCE UBUNTU 14.04 LTS
+Optimized Dockerfile to install gcc on any Ubuntu LTS version since Ubuntu 14.04 LTS with gcc-6.1.1 to latest available on each platform at the time of writing.
 
 >**DISCLAIMER: PLEASE BE CAREFUL WHEN YOU TYPE THOSE INSTRUCTIONS REVIEW THEN THOUROUGHLLY. 
 >I WILL NOT BE RESPONSIBLE OF ANY DAMAGE, DATA LOSS, LOSS OF TRUST, LOSS OF MONEY OF ANY KIND.
@@ -32,6 +32,9 @@ cd install-gcc && \
 docker image build --build-arg BASE_IMAGE=ubuntu:14.04 --build-arg WANTED_GCC_VERSION=9 -f Dockerfile -t 'yourusername/install-gcc:9-ubuntu-14.04' .
 
 ```
+
+## NOTE
+Does not work anymore with Ubuntu 12.04 LTS (image not found)
 
 ## SPECIAL THANKS:
 Special thanks to the Ubuntu community, Gcc community and Docker community.
