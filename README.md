@@ -1,5 +1,5 @@
 # INSTALL GCC LATEST ON ANY UBUNTU LTS SINCE UBUNTU 14.04 LTS
-Optimized Dockerfile to install gcc on any Ubuntu LTS version since Ubuntu 14.04 LTS with gcc-6.1.1 to latest available on each platform at the time of writing.
+Optimized Dockerfile to install gcc on any Ubuntu LTS version since Ubuntu 14.04 LTS  latest available on each platform at the time of writing.
 
 >**DISCLAIMER: PLEASE BE CAREFUL WHEN YOU TYPE THOSE INSTRUCTIONS REVIEW THEN THOUROUGHLLY. 
 >I WILL NOT BE RESPONSIBLE OF ANY DAMAGE, DATA LOSS, LOSS OF TRUST, LOSS OF MONEY OF ANY KIND.
