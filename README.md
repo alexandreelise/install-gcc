@@ -26,10 +26,23 @@ Optimized Dockerfile to install gcc on any Ubuntu LTS version since Ubuntu 14.04
 ## USAGE
 To create an Docker image locally on your machine. Please follow those instructions (E.g. build image gcc 9 on Ubuntu 14.04 LTS)
 
-```bash
+```sh
 git clone https://github.com/alexandreelise/install-gcc && \
 cd install-gcc && \
 docker image build --build-arg BASE_IMAGE=ubuntu:14.04 --build-arg WANTED_GCC_VERSION=9 -f Dockerfile -t 'yourusername/install-gcc:9-ubuntu-14.04' .
+
+```
+
+## EXTRA
+If you prefer using the multi-build.sh script to build all the combinations of Ubuntu LTS versions and gcc versions at once you can tweak the provided script or use it as is
+
+
+```sh
+
+git clone https://github.com/alexandreelise/install-gcc && \
+cd install-gcc && \
+chmod 700 multi-build.sh && \
+./multi-build.sh
 
 ```
 
